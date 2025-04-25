@@ -1,0 +1,76 @@
+.faculty-form {
+  max-width: 800px;
+  
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom:20px;
+  padding: 30px;
+  background: #fdfdfd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.faculty-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.section {
+  margin-bottom: 25px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 15px;
+  background: #f9f9f9;
+}
+
+.section h3 {
+  margin-top: 0;
+}
+
+.section input,
+.section select,
+.section textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 8px;
+  margin-bottom: 12px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.dropdown {
+  background-color: #f1f8ff;
+}
+
+.add-btn {
+  background-color: #28a745;
+  color: white;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.add-btn:hover {
+  background-color: #218838;
+}
+
+.submit-btn {
+  background-color: navy;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 16px;
+}
+
+.submit-btn:hover {
+  background-color: #001f5c;
+}

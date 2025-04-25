@@ -1,0 +1,120 @@
+/* index.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #667eea, white);
+  height: 100vh;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+
+.signup-container {
+  background-color: #fff;
+  padding: 2rem 2.5rem;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.signup-container h2 {
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.user-type-toggle {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.user-type-toggle button {
+  flex: 1;
+  padding: 0.6rem;
+  border: none;
+  background-color: #e0e0e0;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  border-radius: 8px;
+  margin: 0 5px;
+}
+
+.user-type-toggle button.active {
+  background-color: #667eea;
+  color: #fff;
+}
+
+form input {
+  width: 100%;
+  padding: 0.75rem;
+  margin: 0.6rem 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+.password-input {
+  position: relative;
+}
+
+.password-input input {
+  width: 100%;  
+}
+
+.password-input span {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: #555;
+}
+
+button[type="submit"] {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #764ba2;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  margin-top: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #5e3c89;
+}
+
+button[disabled] {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.error-text {
+  color: red;
+  font-size: 0.875rem;
+  margin-top: -0.4rem;
+  margin-bottom: 0.5rem;
+}
+
+.signup-link {
+  color: #333;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: underline;
+}
+/* Add this to index.css or SignupPage.css */
+.signup-wrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

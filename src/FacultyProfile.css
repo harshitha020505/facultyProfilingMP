@@ -1,0 +1,43 @@
+.faculty-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 24px;
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .faculty-title {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #1a1a1a;
+  }
+  
+  .faculty-details {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  .faculty-details strong {
+    color: #111;
+  }
+  
+  .edit-button {
+    margin-top: 24px;
+    background-color: #2563eb;
+    color: #fff;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .edit-button:hover {
+    background-color: #1d4ed8;
+  }
